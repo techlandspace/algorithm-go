@@ -20,7 +20,7 @@ package leetcode
 // 	return maxLength
 // }
 
-func lengthOfLongestSubstring(s string) int {
+func LengthOfLongestSubstring(s string) int {
 	left := 0
 	chars := make(map[byte]int)
 	maxLen := 0

@@ -1,6 +1,6 @@
 package leetcode
 
-func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
+func FindMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	length := len(nums1) + len(nums2)
 	mergedArray := make([]int, length)
 	if len(nums1) == 0 {
